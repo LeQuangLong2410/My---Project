@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER PART-->
+    <header>
+      <nav class="navbar flex between wrapper">
+        <a href="#" class="logo">Foodie.</a>
+
+        <ul class="navlist flex gap-3">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <div class="desktop-action flex gap-2">
+          <a href="#" class="cart-icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-value">0</span>
+          </a>
+          <a href="#" class="btn">
+            Sign In &nbsp;
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+          <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+
+        <ul class="mobile-menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+          </li>
+          <li>
+            <a href="#" class="btn">
+              Sign In &nbsp;
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SESSION PART -->
+    <main>
+      <section>
+        <div class="hero-section flex wrapper gap-4">
+          <div class="content">
+            <h1>
+              Enjoy Your Delicious
+              <span>Food</span>
+            </h1>
+            <p class="para">
+              We will fill your tummy with delicious<br />
+              food with fasst delivery.
+            </p>
+            <div class="flex gap-2">
+              <a href="#" class="btn">Order now</a>
+
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="../Food Delivery Img/delivery-boy.png" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our Services</h5>
+            <h2>How does it work?</h2>
+          </div>
+
+          <div class="flex text-center mt-4 gap-4">
+            <div class="service-card">
+              <div class="images-container">
+                <img src="../Food Delivery Img/easy-to-order.png" alt="" />
+              </div>
+              <h3>Easy To Order</h3>
+              <p>You only need a few steps in ordering food.</p>
+            </div>
+            <div class="service-card">
+              <div class="images-container">
+                <img src="../Food Delivery Img/fast-delivery.png" alt="" />
+              </div>
+              <h3>Fast Delivery</h3>
+              <p>Delivery that is always ontime even fasster.</p>
+            </div>
+            <div class="service-card">
+              <div class="images-container">
+                <img src="../Food Delivery Img/best-quality.png" alt="" />
+              </div>
+              <h3>Best Quality</h3>
+              <p>Not only fast for us in quality is also number one.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our menu</h5>
+            <h2>The Most Popular</h2>
+          </div>
+
+          <div class="card-list text-center flex mt-4 gap-2">
+            <div class="order-card">
+              <div class="card-image">
+                <img src="../Food Delivery Img/burger.png" />
+              </div>
+              <h4>Double Beef Burger</h4>
+              <h4 class="price">$9.67</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="../Food Delivery Img/pizza.png" />
+              </div>
+              <h4>Veggie Pizza</h4>
+              <h4 class="price">$10.99</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="/Food Delivery Img/fried-chicken.png" />
+              </div>
+              <h4>Fried Chicken</h4>
+              <h4 class="price">$13.45</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="/Food Delivery Img/chicken-roll.png" />
+              </div>
+              <h4>Chicken Roll</h4>
+              <h4 class="price">$7.50</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="/Food Delivery Img/sandwich.png" />
+              </div>
+              <h4>Sub Sandwich</h4>
+              <h4 class="price">$6.99</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="/Food Delivery Img/lasagna.png" />
+              </div>
+              <h4>Chicken Lasagna</h4>
+              <h4 class="price">$16.45</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="/Food Delivery Img/spaghetti.png" />
+              </div>
+              <h4>Italian Spaghetti</h4>
+              <h4 class="price">$7.65</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="order-card">
+              <div class="card-image">
+                <img src="/Food Delivery Img/spring-roll.png" />
+              </div>
+              <h4>Spring Roll</h4>
+              <h4 class="price">$9.30</h4>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+
+          <div class="cart-tab">
+            <h3>Your Cart</h3>
+
+            <div class="cart-list">
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="/Food Delivery Img/burger.png">
+                    </div>
+                    <div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="item-total">$20.00</h4>
+                    </div>
+                    <div class="flex">
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                        <h4 class="quantity-value">1</h4>
+                        <a href="#" class="quantity-btn">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-container">
+                <h4>Total:</h4>
+                <h4 class="cart-total">$0.00</h4>
+            </div>
+
+            <div class="btn-container flex gap-2">
+                <a href="#" class="btn close-btn">Close</a>
+                <a href="#" class="btn">Check out</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top flex gap-3">
+          <div class="image-container">
+            <img src="/Food Delivery Img/delivery-boy-with-phone.png" />
+          </div>
+
+          <div class="review-container">
+            <h5>Our Reviews</h5>
+            <h2>What they say?</h2>
+            <div class="review-container">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper mt-4">
+                  <div class="swiper-slide">
+                    <div class="flex gap-2">
+                      <div class="profile">
+                        <img src="/Food Delivery Img/profile1.jpeg" />
+                      </div>
+                      <div>
+                        <h4>Guy Hawkins</h4>
+                        <div class="mt-half">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Iusto dolorem nam adipisci illum cum voluptatibus nulla
+                      quam temporibus cupiditate pariatur aspernatur
+                      perferendis, atque quibusdam praesentium maxime natus
+                      voluptatem accusamus ullam!
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="flex gap-2">
+                      <div class="profile">
+                        <img src="/Food Delivery Img/profile2.jpeg" />
+                      </div>
+                      <div>
+                        <h4>Sophia Anderson</h4>
+                        <div class="mt-half">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Iusto dolorem nam adipisci illum cum voluptatibus nulla
+                      quam temporibus cupiditate pariatur aspernatur
+                      perferendis, atque quibusdam praesentium maxime natus
+                      voluptatem accusamus ullam!
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="flex gap-2">
+                      <div class="profile">
+                        <img src="/Food Delivery Img/profile3.jpeg" />
+                      </div>
+                      <div>
+                        <h4>Olivia Smith</h4>
+                        <div class="mt-half">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Iusto dolorem nam adipisci illum cum voluptatibus nulla
+                      quam temporibus cupiditate pariatur aspernatur
+                      perferendis, atque quibusdam praesentium maxime natus
+                      voluptatem accusamus ullam!
+                    </p>
+                  </div>
+                </div>
+                <div class="flex between">
+                  <a href="#" class="arrow" id="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </a>
+                  <a href="#" class="arrow" id="next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="app-container flex between">
+            <div class="image-container">
+              <img src="/Food Delivery Img/mobile-app.png" />
+            </div>
+
+            <div class="content">
+              <h5>Our Application</h5>
+              <h2>
+                Simple Way To<br />
+                Order Your Food
+              </h2>
+              <p class="para">
+                Discover food wherever and whenever <br />
+                and get your food delivery quickly
+              </p>
+              <a href="#" class="btn">Get The App</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our Subscribe</h5>
+            <h2>Subscribe To Our Newsletter</h2>
+            <p class="para m-auto">
+              We recommend you to subscribe our newspaper, drop your email below
+              to get daily update about us.
+            </p>
+
+            <label class="input-container flex">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                autocapitalize="off"
+              />
+              <a href="#" class="btn">Subscribe</a>
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER PART -->
+    <footer>
+      <div class="footer-container">
+        <div class="flex wrapper gap-4">
+          <div class="footer-wrapper">
+            <a href="#" class="logo">Foodie.</a>
+
+            <p class="mt-one-half">
+              We will fill your tummy with<br> delicious
+              food with fast delivery.
+            </p>
+
+            <div class="flex gap-2 mt-one-half">
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icons">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+
+          <ul class="footer-wrapper">
+            <li>
+                <h4>Our menu</h4>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Special</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Popular</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Category</a>
+            </li>
+          </ul>
+
+          <ul class="footer-wrapper">
+            <li>
+                <h4>Company</h4>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Why Foodie</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Partner with us</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">About us</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">FAQ's</a>
+            </li>
+          </ul>
+
+          <ul class="footer-wrapper">
+            <li>
+                <h4>Support</h4>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Account</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Support center</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Feedback</a>
+            </li>
+            <li class="mt-one-half">
+                <a href="#" class="footer-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

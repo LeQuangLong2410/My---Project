@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Double Beef Burger",
+        "price": "$9.67",
+        "image": "/Food Delivery Img/burger.png"
+
+    },
+    {
+        "id": 2,
+        "name": "Veggie Pizza",
+        "price": "$10.99",
+        "image": "/Food Delivery Img/pizza.png"
+    },
+    {
+        "id": 3,
+        "name": "Fried Chicken",
+        "price": "$19.67",
+        "image": "/Food Delivery Img/fried-chicken.png"
+    },
+    {
+        "id": 4,
+        "name": "Double Beef Burger",
+        "price": "$12.34",
+        "image": "/Food Delivery Img/burger.png"
+    },
+    {
+        "id": 5,
+        "name": "Double Beef Burger",
+        "price": "$9.87",
+        "image": "/Food Delivery Img/burger.png"
+    },
+    {
+        "id": 6,
+        "name": "Double Beef Burger",
+        "price": "$15.08",
+        "image": "/Food Delivery Img/burger.png"
+    },
+    {
+        "id": 7,
+        "name": "Double Beef Burger",
+        "price": "$27.20",
+        "image": "/Food Delivery Img/burger.png"
+    },
+    {
+        "id": 8,
+        "name": "Double Beef Burger",
+        "price": "$24.10",
+        "image": "/Food Delivery Img/burger.png"
+    }
+]
